@@ -6,7 +6,7 @@ The code editor I used was Visual Studio Code. It can be found here.
 Node.js and NPM download can be found here.
 
 Step 2 - Clone my repository
-In your command terminal, type the following to clone this repository: "git clone https://github.com/TomOverland/Workout-Tracker.git"
+In your command terminal, type the following to clone this repository: "git clone https://github.com/libanesse/User-Directory.git"
 
 Step 3 - Move to the correct directory
 Type the following in your command line: "cd Employee-Directory"
