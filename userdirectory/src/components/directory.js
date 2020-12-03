@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Employees from "./Employees.js";
 import Search from "./Search.js";
 import API from "../utils/API";
-import "../styles/Directory.css";
+//import "../styles/Directory.css";
 
 
 
@@ -16,8 +16,7 @@ class Directory extends Component {
       sorted: false,
     };
   
-    // check that the component rendered at least once, and pull in our data
-    // wait for the information to come back
+  
     componentDidMount = () => {
       API.getUsers().then((results) => {
         this.setState({
@@ -26,8 +25,7 @@ class Directory extends Component {
       });
     };
   
-    // sort through employees based on search term
-    // check if there is a match and set that to empSort for rendering
+    
     sortEmp = () => {
       let { employees, search } = this.state;
       let empSort = employees.filter((sorted) => {
@@ -40,7 +38,7 @@ class Directory extends Component {
       this.setState({ empSort });
     };
   
-    // grab search term, activate sorted
+    
     startSort = (event) => {
       this.setState({ search: event.target.value }, () => {
         this.sortEmp();
