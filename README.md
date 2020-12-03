@@ -2,8 +2,7 @@
 
 Installation:
 Step 1 - Make sure you have a code editor, Node.js and Node Package Manager installed
-The code editor I used was Visual Studio Code. It can be found here.
-Node.js and NPM download can be found here.
+The code editor I used was Visual Studio Code. 
 
 Step 2 - Clone my repository
 In your command terminal, type the following to clone this repository: "git clone https://github.com/libanesse/User-Directory.git"
