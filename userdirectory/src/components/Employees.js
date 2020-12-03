@@ -12,7 +12,7 @@ const Employees = (props) => {
     return formattedDate;
   }
 
-  // dateOfBirth variable allows me to cleanly call formatDate on the props in the below JSX
+  
   let dateOfBirth = formatDate(props.dob);
 
   return (
